@@ -162,15 +162,15 @@ header {
 
 
 /* MAIN CONTENT STYLES */
-.col {
+.set-m {
     margin: 70px auto;
 }
 
-.col>h3 {
+.set-m>h3 {
     margin: 30px auto;
 }
 
-.col>p {
+.set-m>p {
     width: 85%;
     margin-left: 0;
 }
@@ -179,7 +179,42 @@ header {
     margin-left: 0px;
 }
 
+.h_help {
+    background-color: #161314;
+    color: #fff;
+}
 
+.o_services {
+    background-color: #1573FC;
+    color: #fff;
+}
+
+.contact_us {
+    background-color: #161314;
+    color: #fff;
+}
+
+input, textarea {
+    background-color: transparent !important;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #fff !important;
+    color: #000 !important;
+    padding: .8em 0 !important;
+    font-size: .8em !important;
+}
+
+@media (max-width: 500px) {
+    .w-help, .h_help {
+        text-align: center;
+    }
+    .set-m>p {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
 
 @media (max-width: 1050px) {
     .main_header_nav {
