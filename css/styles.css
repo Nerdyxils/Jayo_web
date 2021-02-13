@@ -19,6 +19,7 @@ body {
 }
 
 h1 {
+    font-family: 'Inter', sans-serif !important;
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: 52px;
@@ -27,6 +28,7 @@ h1 {
 }
 
 h2 {
+    font-family: 'Inter', sans-serif !important;
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: 36px;
@@ -35,6 +37,7 @@ h2 {
 }
 
 h3 {
+    font-family: 'Inter', sans-serif !important;
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: 23px;
@@ -43,6 +46,7 @@ h3 {
 }
 
 h4 {
+    font-family: 'Inter', sans-serif !important;
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: 16px;
@@ -51,6 +55,7 @@ h4 {
 }
 
 h5 {
+    font-family: 'Inter', sans-serif !important;
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: 14px;
@@ -59,6 +64,7 @@ h5 {
 }
 
 h6 {
+    font-family: 'Inter', sans-serif !important;
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: 12px;
@@ -67,19 +73,22 @@ h6 {
 }
 
 p {
+    font-family: 'Inter', sans-serif !important;
     margin-bottom: 10px;
     line-height: 1.5;
 }
 
 a {
+    font-family: 'Inter', sans-serif !important;
     color: #ff7b00;
     text-decoration: none;
 }
 
 ol, ul {
+    font-family: 'Inter', sans-serif !important;
     margin-top: 0px;
     margin-bottom: 10px;
-    padding-left: 40px;
+    /* padding-left: 40px; */
     list-style-type: decimal;
 }
 
@@ -206,8 +215,30 @@ input, textarea {
     font-size: .8em !important;
 }
 
+/* FOOTER STYLING */
+.footer {
+    background: #1573FC;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.contact_details {
+    margin-top: 50px;
+}
+
+.cont_d {
+    line-height: 2.0;
+}
+
 @media (max-width: 500px) {
-    .w-help, .h_help {
+    .hero_text {
+        font-size: 2rem;
+    }
+    .btn-one {
+        width: 90%;
+    }
+    .hero, .w-help, .h_help, .o_services, .abt_us, .contact_us {
         text-align: center;
     }
     .set-m>p {
