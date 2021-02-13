@@ -106,12 +106,23 @@ img {
 }
 
 .logo {
-    margin: 20px;
+    margin-top: 20px;
+}
+
+.nav {
+    visibility: visible;
+    display: block;
+    height: auto;
+    right: 0;
+}
+
+.nav-toggle {
+    display: none;
 }
 
 .nav__links {
     display: flex;
-    margin: 20px;
+    margin: 30px;
 }
 
 .nav_link {
@@ -119,17 +130,10 @@ img {
     color: #ffffff;
 }
 
-.nav {
-    visibility: visible;
-    display: block;
-    height: auto;
+.nav_link:hover {
+    opacity: .65;
+    text-decoration: none;
 }
-
-.nav-toggle {
-    visibility: hidden;
-}
-
-
 
 header {
     /* position: absolute; */
@@ -144,6 +148,38 @@ header {
     color: #ffffff;
 }
 
+.hero {
+    margin: 100px auto;
+}
+
+.btn-one {
+    background-color: #fff !important;
+    margin-top: 40px;
+    padding: 1em 1.4em !important;
+    font-size: .8rem !important;
+    color: #161314;
+}
+
+
+/* MAIN CONTENT STYLES */
+.col {
+    margin: 70px auto;
+}
+
+.col>h3 {
+    margin: 30px auto;
+}
+
+.col>p {
+    width: 85%;
+    margin-left: 0;
+}
+
+.m_right {
+    margin-left: 0px;
+}
+
+
 
 @media (max-width: 1050px) {
     .main_header_nav {
@@ -154,7 +190,7 @@ header {
         visibility: hidden;
         height: 100%;
         position: absolute;
-        width: 100%;
+        width: 100% !important;
         background-color: #1573FC;
         margin-top: 70px;
     }
@@ -184,7 +220,7 @@ header {
     }
 
     .nav-toggle {
-        visibility: visible ;
+        display: block;
         cursor: pointer;
         border: 0;
         width: 3em;
