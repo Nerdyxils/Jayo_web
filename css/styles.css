@@ -14,7 +14,6 @@ html {
     list-style-type: none;
     box-sizing: border-box;
     font-size: 16px;
-    
 }
 
 body {
@@ -122,7 +121,6 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
-    
 }
 
 .mk_fix {
@@ -290,16 +288,11 @@ input, textarea {
 
 @media (max-width: 1050px) {
     .main_header_nav {
-        position: relative;
         padding: 0 50px;
     }
 
-    .header {
-       position: relative;
-    }
-
     .mk_fix {
-        position: fixed;
+        position: relative;
         background: rgba(0, 0, 0, 0.3);
         color: #fff;
         height: 80px;
@@ -309,16 +302,25 @@ input, textarea {
         visibility: hidden;
         height: 100%;
         width: 100%;
-        position: absolute; 
+        position: absolute;
+        z-index: 1; 
 
         top: 0;
-        right: 0;
+        left: 0;
         
         /* background-color: #1573FC; */
         margin-top: 70px;
 
         background-color: rgb(0,0,0);
         background-color: rgba(0,0,0, 0.9);
+    }
+
+    .nav__links {
+        display: block;
+        /* position: absolute; */
+        top: 25%;
+        width: 100%;
+        margin-top: 30px;
     }
 
     .nav li{
@@ -329,6 +331,7 @@ input, textarea {
     }
     
     .nav a {
+        padding: 8px;
         color: #fff;
         margin: 0 auto;
         text-decoration: none;
@@ -340,14 +343,6 @@ input, textarea {
         height: auto;
         position: absolute;
     } 
-
-    .nav__links {
-        display: block;
-        position: relative;
-        top: 25%;
-        width: 100%;
-        margin-top: 30px;
-    }
 
     .nav-toggle {
         display: block;
