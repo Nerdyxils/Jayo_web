@@ -136,7 +136,8 @@ img {
 }
 
 .menu a:hover, .menu a:target {
-    color: #ebebeb;
+    color: #000;
+    transition: 0.375em ease-in;
 }
 
 .menu-items {
