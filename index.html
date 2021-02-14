@@ -19,35 +19,42 @@
         <!-- GOOGLE FONTS -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+        <!-- JQUERY -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header class="header">
-            <div class="main_header_nav">
-                <div class="logo">
-                    <h2 class="logo__text"> JAYO </h2>
+        <header class="header" id="Home">
+            <div class="mk_fix">
+                <div class="main_header_nav">
+                    <div class="logo">
+                        <h2 class="logo__text"><a href="#Home">JAYO </a> </h2>
+                    </div>
+                    <div class="nav">
+                        <ul class="nav__links">
+                            <!-- <li><a href="#" class="nav_link">Our Work</a></li> -->
+                            <li><a href="#w-help" class="nav_link">Who We Help</a></li>
+                            <li><a href="#h_help" class="nav_link">How We Help</a></li>
+                            <li><a href="#o_services" class="nav_link">Our Services</a></li>
+                            <li><a href="#abt_us" class="nav_link">About Us</a></li>
+                            <li><a href="#contact_us" class="nav_link">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <button class="nav-toggle" aria-label="open navigation">
+                        <span class="hamburger"></span>
+                    </button>
                 </div>
-                <div class="nav">
-                    <ul class="nav__links">
-                        <!-- <li><a href="#" class="nav_link">Our Work</a></li> -->
-                        <li><a href="#w-help" class="nav_link">Who We Help</a></li>
-                        <li><a href="#h_help" class="nav_link">How We Help</a></li>
-                        <li><a href="#o_services" class="nav_link">Our Services</a></li>
-                        <li><a href="#abt_us" class="nav_link">About Us</a></li>
-                        <li><a href="#contact_us" class="nav_link">Contact Us</a></li>
-                    </ul>
-                </div>
-                <button class="nav-toggle" aria-label="open navigation">
-                    <span class="hamburger"></span>
-                </button>
             </div>
 
             <div class="hero container">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <h1 class="hero_text">
-                        Scale your business with on-demand technial expertise. 
-                    </h1>
-                    <p>Use us as you need. Pay as you go.</p>
-                    <button type="button" class="btn btn-one">Schedule A Consultation</button>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="move_t">
+                        <h1 class="hero_text">
+                            Scale your business with on-demand technial expertise. 
+                        </h1>
+                        <p>Use us as you need. Pay as you go.</p>
+                        <button type="button" class="btn btn-one">Schedule A Consultation</button>
+                    </div>
                 </div>
             </div>
         </header>
