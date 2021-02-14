@@ -237,15 +237,23 @@ input, textarea {
 }
 
 @media (max-width: 500px) {
+    /* h1 {
+        margin-bottom: 10px!important;
+        font-size: 22px!important;
+    } */
+
     .hero_text {
-        font-size: 2rem;
+        font-size: 2rem !important;
     }
+
     .btn-one {
         width: 90%;
     }
+
     .hero, .w-help, .h_help, .o_services, .abt_us, .contact_us {
         text-align: center;
     }
+
     .set-m>p {
         width: 90%;
         margin: 0 auto;
