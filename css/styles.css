@@ -121,7 +121,6 @@ img {
     background-color: rgba(0,0,0, 0.9);
 }
   
-/* Example responsive navigation menu  */
 
 .menu {
     display: flex;
@@ -173,6 +172,17 @@ a.sitename, a:visited.sitename {
     background-repeat: no-repeat;
     background-position: center left;
     color: #fff;
+}
+
+.active {
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.info {
+    color: red;
+    font-size: .8rem;
 }
 
 /* .show {
@@ -263,6 +273,8 @@ a.sitename, a:visited.sitename {
 
     .show {
       display: inline-block;
+
+     
     }
 
     .hide {

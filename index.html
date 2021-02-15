@@ -206,27 +206,32 @@
                 <div class="row">
                     <div class="set-m col-lg-6 col-md-6 col-sm-12 col-xs-12 m_right">
                     <form>
+                        <div id="mail-status"></div>
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <input type="text" class="form-control transparent-input" id="inputName" placeholder="Your full name">
+                                <input type="text" class="form-control demoInputBox" id="inputName" placeholder="Your full name">
+                                <span id="inputName-info" class="info"></span>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <input type="email" class="form-control at icon transparent-input" id="inputEmail4" placeholder="Your email address">
+                                <input type="email" class="form-control demoInputBox" id="inputEmail" placeholder="Your email address">
+                                <span id="inputEmail-info" class="info"></span>
                             </div>
                         </div>
                             <div class="form-group">
-                                <textarea class="form-control transparent-input" id="exampleFormControlTextarea1" rows="5" placeholder="Your message"></textarea>
+                                <textarea class="form-control demoInputBox" id="exampleFormControlTextarea1" rows="5" placeholder="Your message"></textarea>
+                                <span id="inputMessage-info" class="info"></span>
                             </div>
                         <div class="form-row">
-                            <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                            <button type="submit" class="btn btn-primary submit-btn" onClick="sendContact();">Send Message</button>
                         </div>
                     </form>
                 </div>
                 </div>
             </div>
         </section>
+        
 
         <footer class="footer">
             <div class="container">
