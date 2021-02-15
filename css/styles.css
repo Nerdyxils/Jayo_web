@@ -359,6 +359,7 @@ input, textarea {
         position: absolute;
         background-color: #1573FC;
         width: 100%;
+        
         margin-top: 35px;
         padding-left: 0;
         padding-right: 0;
@@ -367,7 +368,7 @@ input, textarea {
     .menu-items {
       display: none; 
       width: 100%;
-      height: 100%;
+      height: 100vh;
       padding: 50px 0;
       margin: 0 auto;
 
@@ -383,9 +384,13 @@ input, textarea {
       display: block;
       text-align: left;
       width: 100%;
-      margin-top: 30px;
-      line-height: 70px;
-      /* font-weight: 800; */
+      margin-top: 20px;
+      line-height: 100px;
+      
+    }
+
+    .menu-items li>a {
+        font-size: 30px !important;
     }
 
 /* *********** FADE IN ANIMATION START *********** */
