@@ -1,3 +1,4 @@
+// ADD ACTIVE CLASS TO NAV MENU
 $(document).ready(function() {
     $(".nav_link").click(function () {
         $(".nav_link").removeClass("active");
@@ -8,6 +9,8 @@ $(document).ready(function() {
     })
 });
 
+
+// FORM VALIDATION CODE
 function validateContact() {
     var valid = true;	
     $(".demoInputBox").css('background-color','');
