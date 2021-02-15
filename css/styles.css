@@ -162,6 +162,10 @@ a.sitename, a:visited.sitename {
     margin-top: 10px;
 }
 
+.site a:hover {
+    border-bottom: none;
+}
+
 .menu-items li {
     margin: 10px;
 }
@@ -442,7 +446,7 @@ input, textarea {
     }
 
 
-    
+
 
     .hero, .w-help, .h_help, .o_services, .abt_us, .contact_us {
         text-align: center;
