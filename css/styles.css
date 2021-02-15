@@ -325,17 +325,9 @@ input, textarea {
         width: 90%;
     }
 
-    .hero, .w-help, .h_help, .o_services, .abt_us, .contact_us {
-        text-align: center;
-    }
-
     .set-m>p {
         width: 90%;
         margin: 0 auto;
-    }
-
-    .empty_panel {
-        display: none;
     }
 }
 
@@ -447,6 +439,17 @@ input, textarea {
 
     #menu:target .hide, #menu:target .menu-items {
       display: block;
+    }
+
+
+    
+
+    .hero, .w-help, .h_help, .o_services, .abt_us, .contact_us {
+        text-align: center;
+    }
+
+    .empty_panel {
+        display: none;
     }
 }
   
