@@ -16,7 +16,7 @@ function validateContact() {
     $(".demoInputBox").css('background-color','');
     $(".info").html('');
     if(!$("#inputName").val()) {
-        $("#inputName-info").html("Please enter a your name");
+        $("#inputName-info").html("We would like to know your name");
         $("#inputName").css('background-color','#FFFFDF');
         valid = false;
     }
