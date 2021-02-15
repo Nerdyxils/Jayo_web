@@ -57,3 +57,7 @@ function sendContact() {
     }
 }
 
+
+function moveContact() {
+    window.location.href = '#contact_us';
+}
