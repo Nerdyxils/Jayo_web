@@ -9,7 +9,7 @@ $(document).ready(function() {
     })
 });
 
-
+// ADD CLASS ACTIVE TO NAV MENU ON SCROLL
 $(window).scroll(function(){
     var scrollTop = $(document).scrollTop();
     var anchors = $('body').find('section');
