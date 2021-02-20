@@ -6,10 +6,20 @@
         <title>JAYO</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <!-- FAVICON -->
+        <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"> -->
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <!-- <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest"> -->
+
+
         <link rel="stylesheet" href="css/styles.css">
           <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
+
 
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -25,7 +35,7 @@
     </head>
     <body>
         <header class="header" id="Home">
-            <nav class="fixed-nav-bar">
+            <nav class="fixed-nav-bar ">
                 <div id="menu" class="menu">
                     <div class="site">
                         <a class="sitename" href="#Home">JAYO</a>
@@ -47,14 +57,16 @@
                 </div>
               </nav>
 
-            <section class="hero container">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="move_t">
-                        <h1 class="hero_text">
-                            Scale your business with on-demand technical expertise. 
-                        </h1>
-                        <p>Use us as you need. Pay as you go.</p>
-                        <button type="button" class="btn btn-one" onclick="moveContact()">Schedule A Consultation</button>
+            <section class="hero">
+                <div class="container">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="move_t">
+                            <h1 class="hero_text">
+                                Scale your business with on-demand technical expertise. 
+                            </h1>
+                            <p>Use us as you need. Pay as you go.</p>
+                            <button type="button" class="btn btn-one" onclick="moveContact()">Schedule A Consultation</button>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -227,7 +239,7 @@
                                 <span id="inputMessage-info" class="info"></span>
                             </div>
                         <div class="form-row">
-                            <button type="submit" class="btn btn-primary submit-btn" onClick="sendContact();">Send Message</button>
+                            <button type="submit" class="btn btn-primary submit-btn SendEmail" onClick="sendContact();">Send Message</button>
                         </div>
                     </form>
                 </div>

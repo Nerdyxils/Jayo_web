@@ -45,7 +45,7 @@ function validateContact() {
         valid = false;
     }
     if(!$("#exampleFormControlTextarea1").val()) {
-        $("#inputMessage-info").html("What would you like us to do for you?");
+        $("#inputMessage-info").html("How can we help you with your project?");
         $("#exampleFormControlTextarea1").css('background-color','#FFFFDF');
         valid = false;
     }
@@ -72,6 +72,9 @@ function sendContact() {
 }
 
 
+
+
+// BUTTON MOVE TO CONTACT SECTION
 function moveContact() {
     window.location.href = '#contact_us';
 }

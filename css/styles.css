@@ -97,10 +97,10 @@ ol, ul {
 }
 
 .container {
-    width: 80%;
-    padding: 6.3em 0;
-    margin: 0 auto;
-    max-width: 1128px;
+    width: 80% !important;
+    margin: 0 auto !important;
+    max-width: 1128px !important;
+    padding: 6.3em 0 !important;
 }
 
 img {
@@ -118,7 +118,6 @@ img {
     left: 0;
     right: 0;
     z-index: 9999;
-    width: 100%;
     padding: 10px 0;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.9);
@@ -128,7 +127,7 @@ img {
 .menu {
     display: flex;
     justify-content: space-between;
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
     max-width: 1128px;
 }
@@ -231,6 +230,7 @@ header {
 
 .move_t {
     margin: 100px auto;
+    padding: 0;
 }
 
 .btn-one {
@@ -354,12 +354,18 @@ input, textarea {
         font-size: 2rem !important;
     }
 
+    .menu__main {
+        margin-left: 7px;
+    }
+
     .nav__menu {
         position: absolute;
         background-color: #1573FC;
         width: 100%;
         
         margin-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
         padding-left: 0;
         padding-right: 0;
     }
@@ -382,7 +388,6 @@ input, textarea {
     .menu-items li {
       display: block;
       text-align: left;
-      width: 100%;
       margin-top: 20px;
       line-height: 80px;
       
@@ -444,9 +449,6 @@ input, textarea {
     #menu:target .hide, #menu:target .menu-items {
       display: block;
     }
-
-
-
 
     .hero, .w-help, .h_help, .o_services, .abt_us, .contact_us {
         text-align: center;
