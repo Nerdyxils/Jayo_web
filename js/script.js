@@ -85,8 +85,7 @@ function validateContact() {
 
 $(function () {
     $('.SendEmail').click(function (event) {
-        var valid;
-        valid = validateContact();
+        var valid = validateContact();
         if (valid) {
             var email = 'hello@jayo.one';
             var subject = 'Test';
