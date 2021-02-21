@@ -87,7 +87,7 @@ $(function () {
     $('.SendEmail').click(function (event) {
         var valid = validateContact();
         if (valid) {
-            var email = 'hello@jayo.one';
+            var email = 'info@jayo.one';
             var subject = 'Test';
             var emailBody = 'Hi Sample,';
             var attach = 'path';
@@ -97,7 +97,8 @@ $(function () {
     });
 });
 
-// document.location
+// document.
+// location
 
 
 // BUTTON MOVE TO CONTACT SECTION
