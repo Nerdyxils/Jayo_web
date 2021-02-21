@@ -85,13 +85,16 @@ function validateContact() {
 
 $(function () {
     $('.SendEmail').click(function (event) {
-        validateContact();
+        var valid;
+        valid = validateContact();
+        if (valid) {
             var email = 'hello@jayo.one';
             var subject = 'Test';
             var emailBody = 'Hi Sample,';
             var attach = 'path';
             window.location.href = "mailto:"+email+"?subject="+subject+"&body="+emailBody+
                 "?attach="+attach;
+        }
     });
 });
 
