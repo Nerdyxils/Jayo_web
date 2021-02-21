@@ -83,18 +83,19 @@ function validateContact() {
 //     });
 //   });
 
-    $(function () {
-        $('.SendEmail').click(function (event) {
-            validateContact();
-                var email = 'hello@jayo.one';
-                var subject = 'Test';
-                var emailBody = 'Hi Sample,';
-                var attach = 'path';
-                document.location = "mailto:"+email+"?subject="+subject+"&body="+emailBody+
-                    "?attach="+attach;
-        });
+$(function () {
+    $('.SendEmail').click(function (event) {
+        validateContact();
+            var email = 'hello@jayo.one';
+            var subject = 'Test';
+            var emailBody = 'Hi Sample,';
+            var attach = 'path';
+            window.location.href = "mailto:"+email+"?subject="+subject+"&body="+emailBody+
+                "?attach="+attach;
     });
+});
 
+// document.location
 
 
 // BUTTON MOVE TO CONTACT SECTION
