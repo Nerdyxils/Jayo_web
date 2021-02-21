@@ -228,6 +228,10 @@ header {
     color: #ffffff;
 }
 
+/* .hero>.col-lg-6, .hero>.col-md-12, .hero>.col-sm-12 {
+    padding-left: 0px !important;
+} */
+
 .move_t {
     margin: 100px auto;
     padding: 0;

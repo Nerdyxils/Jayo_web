@@ -53,24 +53,47 @@ function validateContact() {
 }
 
 
-function sendContact() {
-    var valid;	
-    valid = validateContact();
-    if(valid) {
-        jQuery.ajax({
-            url: "contact_mail.php",
-            data:'inputName='+$("#inputName").val()+'&inputEmail='+
-            $("#inputEmail").val()+'&exampleFormControlTextarea1='+
-            $(content).val(),
-            type: "POST",
-            success:function(data){
-                $("#mail-status").html(data);
-            },
-            error:function (){}
-        });
-    }
-}
+// function sendContact() {
+//     var valid;	
+//     valid = validateContact();
+//     if(valid) {
+//         jQuery.ajax({
+//             url: "hello@jayo.one",
+//             data:'inputName='+$("#inputName").val()+'&inputEmail='+
+//             $("#inputEmail").val()+'&exampleFormControlTextarea1='+
+//             $(content).val(),
+//             type: "POST",
+//             success:function(data){
+//                 $("#mail-status").html(data);
+//             },
+//             error:function (){}
+//         });
+//     }
+// }
 
+
+// $(function () {
+//     $('.SendEmail').click(function (event) {
+//       var email = 'hello@jayo.one';
+//       var subject = 'Test';
+//       var emailBody = 'Hi Sample,';
+//       var attach = 'path';
+//       document.location = "mailto:"+email+"?subject="+subject+"&body="+emailBody+
+//           "?attach="+attach;
+//     });
+//   });
+
+    $(function () {
+        $('.SendEmail').click(function (event) {
+            validateContact();
+                var email = 'hello@jayo.one';
+                var subject = 'Test';
+                var emailBody = 'Hi Sample,';
+                var attach = 'path';
+                document.location = "mailto:"+email+"?subject="+subject+"&body="+emailBody+
+                    "?attach="+attach;
+        });
+    });
 
 
 
